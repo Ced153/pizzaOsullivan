@@ -1,5 +1,8 @@
 # pizzaOsullivan
-Reproduction de maquette en site statique
+Projet fictif réalisé à des fins de démonstration. Aucune affiliation avec le Collège O'Sullivan.
+
+Reproduction de maquette en site statique.
+
 
 Fonts: Cooper, Arial, Open-Sans
 
