@@ -1,12 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pizzaOsullivan</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PizzaOSULLIVAN</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="topnav" id="myTopNav">
+      <a href="index.html">
+        <div class="logo">
+          <p>PizzaOSULLIVAN</p>
+        </div>
+      </a>
+
+      <ul>
+        <li><a href="index.html" class="active-link">Accueil</a></li>
+        <li><a>Menus</a></li>
+        <li><a>Pizzas</a></li>
+        <li><a>Contact</a></li>
+        <li><a>Commander</a></li>
+        <li><a>À propos</a></li>
+      </ul>
+      <a
+        href="javascript:void(0);"
+        class="hamburger-menu"
+        onclick="myFunction()"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+
+    <section class="section1">
+      <div class="intro">
+        <h2>
+          Bienvenue sur le site de<br />
+          PizzaOSULLIVAN
+        </h2>
+        <h3>
+          Ventes de pizzas faites maison<br />
+          et plus, au collège.
+        </h3>
+        <button>En savoir plus</button>
+      </div>
+      <h2 class="responsive-h2">
+        Bienvenue sur le site de<br />
+        PizzaOSULLIVAN
+      </h2>
+      <h3 class="responsive-h3">
+        Ventes de pizzas faites maison<br />
+        et plus, au collège.
+      </h3>
+      <button class="responsive-btn">En savoir plus</button>
+    </section>
+
+    <section class="section2">
+      <h2>Types de pizzas</h2>
+
+      <div class="pizzaCardContainer">
+        <div class="card">
+          <img src="images/pizza2.jpg" alt="Pizza au fromage" />
+
+          <div class="card-content">
+            <h3>Pizza au fromage</h3>
+            <div class="order-btn order1">Commander</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/pizza3.jpg" alt="Pizza pepperonis" />
+
+          <div class="card-content">
+            <h3>Pizza pepperonis</h3>
+            <div class="order-btn order2">Commander</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/pizza4.jpg"
+            alt="Pizza végétarienne avec sauce BBQ"
+          />
+
+          <div class="card-content">
+            <h3>
+              Pizza végétarienne<br />
+              avec sauce BBQ
+            </h3>
+            <div class="order-btn order3">Commander</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/pizza5.jpg" alt="Pizza aux légumes" />
+
+          <div class="card-content">
+            <h3>Pizza aux légumes</h3>
+            <div class="order-btn order4">Commander</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-row">
+        <div class="footer-col1">
+          <p class="blogue">Blogue</p>
+          <p class="infolettre">Infolettres</p>
+          <p class="cr-notice">@ 2025 PizzaOSULLIVAN</p>
+        </div>
+
+        <div class="footer-col2">
+          <div>
+            <p>Pour nous contacter :</p>
+            <a href="">info@pizzaOSULLIVAN.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
