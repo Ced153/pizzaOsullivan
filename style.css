@@ -231,13 +231,13 @@ footer {
 }
 
 .footer-col1 {
-  width: 45%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
 
 .footer-col2 {
-  width: 55%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -270,6 +270,32 @@ footer {
   color: white;
 }
 
+.s-medias {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.s-medias img {
+  object-fit: contain;
+  display: block;
+}
+
+.fb-logo {
+  width: 45px;
+  height: 45px;
+}
+
+.yt-logo {
+  width: 72px;
+  height: 72px;
+}
+
+.insta-logo {
+  width: 38px;
+  height: 38px;
+}
 
 /*RESPONSIVE*/
 
@@ -290,6 +316,10 @@ footer {
   .order1,
   .order2 {
     margin-top: 66px;
+  }
+
+  .legal-m {
+    width: 50%;
   }
 }
 
@@ -338,6 +368,38 @@ footer {
     font-size: 40px;
     margin-right: 40px;
   }
+
+  .footer-row {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .footer-col1,
+  .footer-col2 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .legal-m {
+    width: 57%;
+  }
+
+  .s-medias {
+    margin-top: 20px;
+  }
+
+  .blogue {
+    margin-top: 10px;
+  }
+
+  .cr-notice {
+    margin-top: -15px;
+  }
+
+  .legal-m {
+    line-height: 1.3em;
+  }
 }
 
 @media (max-width: 600px) {
@@ -379,12 +441,8 @@ footer {
     cursor: pointer;
   }
 
-  .footer-col1 {
-    width: 40%;
-  }
-
-  .cr-notice, .legal-m {
-    margin-left: -10px;
+  .legal-m {
+    width: 65%;
   }
 }
 
@@ -403,6 +461,10 @@ footer {
 
   .intro h3 {
     font-size: 28px;
+  }
+
+  .legal-m {
+    width: 85%;
   }
 }
 
