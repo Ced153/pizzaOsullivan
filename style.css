@@ -96,14 +96,14 @@ img {
   border: 1px solid #ec113e;
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  width: 40%;
+  width: 43%;
   margin: 0 auto;
 }
 
 .section1 h2 {
   font-size: 45px;
   font-family: "Open Sans";
-  color: #f96807;
+  color: #fd6f0f;
   font-weight: bold;
   margin-top: 40px;
 }
@@ -166,7 +166,7 @@ button {
   height: auto;
   background-color: white;
   border-radius: 5px;
-  border: 3px solid #d85e3f;
+  border: 2px solid #d85e3f;
   padding-bottom: 40px;
 }
 
