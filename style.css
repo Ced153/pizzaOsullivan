@@ -301,7 +301,7 @@ footer {
 
 @media (max-width: 1200px) {
   .intro {
-    width: 60%;
+    width: 63%;
   }
 
   .pizzaCardContainer {
@@ -325,11 +325,15 @@ footer {
 
 @media (max-width: 768px) {
   .section1 h2 {
-    font-size: 32px;
+    font-size: 35px;
   }
 
   .section1 h3 {
     font-size: 30px;
+  }
+
+  .section2 h2 {
+    font-size: 35px;
   }
 
   .pizzaCardContainer {
@@ -419,14 +423,13 @@ footer {
 
   .responsive-h2 {
     text-align: center;
-    font-size: 40px !important;
     color: white !important;
   }
 
   .responsive-h3 {
     text-align: center;
     color: white !important;
-    font-size: 35px !important;
+    font-size: 33px !important;
   }
 
   .responsive-btn {
@@ -443,7 +446,7 @@ footer {
   }
 
   .section2 h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .legal-m {
@@ -467,10 +470,14 @@ footer {
 
 @media (max-width: 400px) {
   .section1 h2 {
-    font-size: 27px;
+    font-size: 24px !important;
   }
 
   .section1 h3 {
     font-size: 21px !important;
+  }
+
+  .section2 h2 {
+    font-size: 24px;
   }
 }
